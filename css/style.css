@@ -1,0 +1,79 @@
+/* Resetting properties i.e removing the default style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+a{
+    margin-left: 3rem;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 1rem;
+    border-radius: 50px;
+    text-decoration: none;
+}
+/*  */
+.flexbox {
+    width: 100%;
+    padding: 8px;
+    color: #fff;
+    padding: 3rem;
+}
+
+#containertag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexbox p{
+    margin:  1rem 0 3.5rem 0;
+}
+
+.button{
+    color:#E28525
+}
+
+.button1{
+    color:#016972
+}
+
+.button2{
+    color:#00403F
+}
+
+button{
+    padding: 15px 2rem;
+    border-radius: 25px;
+    border: none;
+    
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+    #containertag{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #containertag{
+        flex-direction: column;
+    }
+
+    button{
+        border-radius: 25px;
+
+}
+}
