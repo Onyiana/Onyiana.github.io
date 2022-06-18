@@ -25,14 +25,14 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
-    padding: 1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
 }
 
 .bottomDiv{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
-    padding: 1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
 }
 
 .topLeft{
