@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#landingPageSection{
+    background: url(/Images/hero-bg.svg);
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.landingPageText{
+    position: relative;
+    top: 10%;
+    width: 50%;
+    margin:0 auto;
+    text-align: center;
+    color: #625A64;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.landingPageArea h1{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.landingPageButton{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.firstButton a{
+    background-color: #E7332B;
+    padding: 13px  30px;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    margin-right: 30px;
+}
+
+.firstButton a:hover{
+  background-color: #fff;
+  color: #E7332B;
+  border: 1px solid #E7332B ;
+}
+
+.secondButton a{
+    background-color: #fff;
+    padding: 13px  30px;
+    color: #E7332B;
+    font-size: 15px;
+    border: 1px solid #E7332B ;
+}
+
+.secondButton a:hover{
+    background-color: #E7332B;
+    color: #fff;
+    border: none;
+}
+
+.landingPageMiddleText{
+    text-align: center;
+    color: #4a494b;
+    margin-top: 150px;
+}
+
+.landingPageMiddleSection{
+    display: flex;
+    position: relative;
+    padding: 70px;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.TrainingSection{
+    padding: 4rem 3rem 5rem;
+    background-color: #FFFAFA;
+}
+
+.TrainingSection p{
+    margin-top: 3rem ;
+    margin-bottom: 2rem;
+    font-size: 15px;
+}
+
+.TrainingSection a{
+  color:#E7332B;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* This was used to an image by the left and right side of the screen */
+.leftIcon{
+    position: absolute;
+    left: 0;
+    top:1%;
+    z-index: -1;
+    width: 26%;
+}
+
+.rightIcon{
+    position: absolute;
+    right: 0;
+    top:-3%;
+    z-index: -1;
+    width: 23%;
+}
+
+#footerSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 1rem 5rem 5rem;
+    gap: 20%;
+}
+
+#footerSection h3{
+    color:#625A64 ;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#footerSection a{
+    color: #E7332B;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footerLink {
+    margin-bottom: 15px;
+}
+
+#footerSection .contactP{
+    font-size: 14px;
+    color:#625A64 ;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.footerMediaSection img{
+    width: 9%;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+.bottomHr{
+    width: 90%;
+    margin: auto;
+}
+
+.team h3{
+    text-align: center;
+    color: #4c4a4d;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+@media screen and (max-width:992px) {
+    .landingPageText{
+        width: 70%;
+    }
+
+    .landingPageMiddleSection{
+        flex-direction: column;
+    }
+
+    #footerSection{
+        gap: 150px;
+    }
+
+    .footerMediaSection img{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .firstButton a{
+        padding: 13px  25px;
+    }
+
+    .secondButton a{
+        padding: 13px  25px;
+    }
+
+    .TrainingSection{
+        padding: 4rem 3rem 3rem;
+    }
+
+    #footerSection{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        justify-content: center;
+        padding: 10rem 5rem 5rem 5rem;
+    }
+
+    #footerSection h3{
+        font-size: 24px;
+    }
+
+    .footerMediaSection img{
+        width: 3%;
+    }
+
+    .footerLogo img{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .landingPageText{
+       width: 95%;
+    }
+    
+    .landingPageButton{
+       flex-direction: column;
+       gap: 50px;
+    }
+
+    .firstButton a{
+        margin-right: 0;
+    }
+
+    .landingPageMiddleSection{
+        padding: 70px  35px;
+    }
+
+    .footerLogo img{
+        width: 35%;
+    }
+
+    .footerMediaSection img{
+        width: 5%;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .landingPageText{
+        width: 96%;
+    }
+
+    .landingPageArea h1{
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .landingPageMiddleSection{
+        padding: 70px  23px;
+    }
+
+    #footerSection h3{
+        font-size: 23px;
+    }
+
+    .footerLogo img{
+        width: 70%;
+    }
+
+    .footerMediaSection img{
+        width: 9%;
+    }
+}
