@@ -306,17 +306,18 @@ a {
     color: #9a959b;
 }
 
+#layout2 p:hover, #layout1 p:hover { 
+    cursor: pointer;
+    transform: translateY(-25%);
+    transition: .3s;
+}
+
 
 .line1IconTag {
     position: absolute;
     right: 0;
     top: 25%;
     width: 23%;
-}
-
-#layout1 div:nth-child(4){
-    position: relative;
-    z-index: 2;
 }
 
 #finalSection{
@@ -368,12 +369,37 @@ a {
 }
  
 .sectionImage:hover{
-    background-color: black;
+    background-color: #161617;
     color: #fff;
 }
 
 #footerSection{
+    background-color: #161617;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5px ;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: #fff;
+}
+
+.footerLogoSection p{
+    margin-top: 50px;
+}
+
+.footermedia i{
+    font-size: 35px;
+}
+
+.footermedia p{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footermedia a{
+    color: #CECECE;
 }
 
 
@@ -399,22 +425,64 @@ a {
 
     .firstSection{
         flex-direction: column;
-        padding: 8rem 5rem;
+        padding: 8rem 4rem;
         width: 85%;
         gap:5rem;
         align-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .firstSection h1, p{
-       text-align: center;
+    .firstSection p{
+        width: 85%;
+    }
+    
+    .section1Image img{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .thick2rightIcon {
+        left: 63%;
+        top: 14%;
+        width: 12% ;
+    }
+    
+    .line1LeftIcon {
+       display: none;
     }
 
     .toggleButton1{
-        margin-left: 8rem;
+        margin-left: 5rem;
         padding: 10px  50px;
     }
 
     .modal-content{
         padding: 1rem  2rem;
+    }
+
+    #middleSection{
+        padding:  6rem  4rem;
+        gap: 10px; 
+    }
+
+    .secondSectionTxt h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .leftImageTag{
+        width: 70%;
+        margin-bottom: auto;
+        margin-right: auto;
+    }
+    
+    .leftImageTag img{
+        width: 85%;
+    }
+
+    .countryLogo{
+        gap: 0;
     }
 }
