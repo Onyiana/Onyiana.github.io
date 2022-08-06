@@ -5,6 +5,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
 }
@@ -444,8 +449,8 @@ a {
     }
 
     .thick2rightIcon {
-        left: 63%;
-        top: 14%;
+        left: 62%;
+        top: 13.5%;
         width: 12% ;
     }
     
