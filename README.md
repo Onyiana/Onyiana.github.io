@@ -1,1 +1,1 @@
-Zuri website
+ZURI WEBSITE
