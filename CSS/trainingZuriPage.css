@@ -490,4 +490,33 @@ a {
     .countryLogo{
         gap: 0;
     }
+
+    .thirdSection{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .thirdSection h1{
+       width: 45%;
+       font-size: 33px;
+       font-weight: 600;
+    }
+
+    .whyUsSection1{
+        width: 100%;
+    }
+
+    .whyUsSection2{
+        width: 100%;
+    }
+
+    #layout2 p {
+        padding:15px 12px;
+        font-size: 17px;
+    }
+
+    .line1IconTag {
+       display: none;
+    }
+    
 }
