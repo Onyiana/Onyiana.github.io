@@ -261,10 +261,7 @@ a {
 }
 
 .thirdSection{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 5rem;
-    padding-right: 13rem;
+    padding:5rem;
     position: relative;
     z-index: 2;
 }
@@ -276,38 +273,38 @@ a {
 }
 
 .whyUsSection1{
-    display:grid;
-    grid-template-columns:  repeat(4, 1fr);
+    display:flex;
+    flex-flow: row wrap;
     margin: 40px 0;
-    width: 90%;
     gap: 30px;
 }
 
 #layout1 p{
     border-radius: 8px;
     box-shadow:  2px 1px 15px rgb(231, 229, 229);
-    padding: 15px 0;
+    padding: 15px  30px;
     text-align: center;
     font-size: 17px;
+    font-weight: 400;
     color: #9a959b;
     position: relative;
-    z-index: 2;
+    z-index: -1;
 }
 
 .whyUsSection2{
     display:flex;
-    column-gap: 15px;
+    flex-flow: row wrap;
+    gap: 30px;
     margin-top: 40px;
-    width: 90%;
-    gap: 20px;
 }
 
 #layout2 p {
     box-shadow:  2px 1px 15px rgb(231, 229, 229);
     text-align: center;
-    padding:15px 20px;
+    padding:15px 18px;
     border-radius:8px ;
     font-size: 17px;
+    font-weight: 400;
     color: #9a959b;
 }
 
@@ -322,7 +319,7 @@ a {
     position: absolute;
     right: 0;
     top: 25%;
-    width: 23%;
+    width: 22.6%;
 }
 
 #finalSection{
@@ -336,15 +333,19 @@ a {
     font-weight: 600;
 }
 
+.ropeImage  {
+   position: relative;
+}
+
+.rope1 {
+    position:absolute;
+    left: 0;
+    top: 45%;
+}
+
 .fourthSection1{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-content: center;
-    place-items: center;
-    margin: 50px 10px;
-    text-align: center;
-    width: 100%;
-    gap: 30px;
+    margin: 50px 30px;
+    position: relative;
 }
 
 .fourthSection1 p{
@@ -352,28 +353,25 @@ a {
     margin-top: 15px;
 }
 
-.fourthSection2{
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   place-content: center;
-   gap: 30px;
-   width: 75%;
-   margin: auto;
-}
-
 .fourthSection2 p{
     font-size: 17px;
     margin-top: 15px;
 }
 
-.sectionImage{
+.pl-2{
     background-color: #fff;
-    height: 110%;
     border-radius: 0 0 20px 0;
     padding: 2rem;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.pl-2 p{
+    padding: 0 30px;
+    font-size: 17px;
+    color: #9a959b;
 }
  
-.sectionImage:hover{
+.pl-2:hover{
     background-color: #161617;
     color: #fff;
 }
@@ -431,25 +429,21 @@ a {
     .firstSection{
         flex-direction: column;
         padding: 8rem 4rem;
-        width: 85%;
+        width: 70%;
         gap:5rem;
-        align-content: center;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
-
-    .firstSection p{
-        width: 85%;
-    }
     
     .section1Image img{
-        width: 100%;
+        width: 125%;
         margin-left: 0;
         margin-right: 0;
     }
 
     .thick2rightIcon {
-        left: 62%;
+        left: 79%;
         top: 13.5%;
         width: 12% ;
     }
@@ -459,7 +453,6 @@ a {
     }
 
     .toggleButton1{
-        margin-left: 5rem;
         padding: 10px  50px;
     }
 
@@ -501,22 +494,33 @@ a {
        font-size: 33px;
        font-weight: 600;
     }
-
-    .whyUsSection1{
-        width: 100%;
+    
+    #layout1 p{
+        padding: 15px  20px;
+        font-size: 16px;
     }
-
     .whyUsSection2{
-        width: 100%;
+        width: 105%;
     }
 
     #layout2 p {
-        padding:15px 12px;
+        padding:15px 8px;
         font-size: 17px;
     }
 
     .line1IconTag {
        display: none;
     }
-    
+
+    #finalSection{
+       padding: 5rem  0;
+    }
+
+    .fourthSection1{
+        margin: 50px  15px;
+    }
+
+    .footerLogoSection p{
+        font-size: 15px;
+    }
 }
