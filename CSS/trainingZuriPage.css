@@ -524,3 +524,68 @@ a {
         font-size: 15px;
     }
 }
+
+@media screen and (max-width:768px) {
+    .navbar{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 10px;
+       
+    }
+
+    .navlinks a{
+        display: none;
+    }
+
+    .navlinks button{
+        padding: 8px  40px;
+    }
+    
+    .firstSection{
+        width: 90%;
+    }
+    
+    .section1Image img{
+        width: 105%;
+    }
+
+    .thick2rightIcon {
+        left: 77%;
+        top: 14%;
+        width: 14% ;
+    }
+
+    #middleSection{
+        flex-direction: column;
+        padding:  6rem  5rem;
+        text-align: center;
+        gap:50px;
+    }
+
+    .countryLogo img{
+       margin-left: 20px;
+    }
+
+    .secondSectionTxt{
+        width: 100%;
+    }
+
+    .secondSectionTxt h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .secondSectionTxt p{
+       margin-bottom: 20px;
+    }
+
+    .leftImageTag{
+        width: 70%;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    
+    .leftImageTag img{
+        width: 90%;
+    }
+}
