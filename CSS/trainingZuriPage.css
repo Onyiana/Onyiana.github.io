@@ -698,6 +698,11 @@ a {
         font-size: 17px;
     }
 
+    
+    #finalSection{
+        padding: 5rem  1rem;
+     }
+
     #footerSection {
         padding: 5rem 1rem 5px;
         gap: 20px;
