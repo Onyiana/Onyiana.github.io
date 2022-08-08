@@ -405,6 +405,10 @@ a {
     color: #CECECE;
 }
 
+.bottomCopyright,.horizontalRule{
+    display: none;
+}
+
 
 
 @media screen and (max-width:992px) {
@@ -612,5 +616,114 @@ a {
 
     .footermedia p{
         margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .navbar{
+        padding-left: 2rem;
+        padding-right: 2rem; 
+    }
+
+    .firstSection{
+        width: 100%;
+    }
+
+    .firstSection p{
+        font-size: 15px;
+    }
+    
+    .section1Image img{
+        width: 120%;
+    }
+
+    .thick2rightIcon {
+        left: 47%;
+        top: 19%;
+        width: 17% ;
+    }
+
+    #middleSection{
+        text-align: start;
+    }
+
+    .secondSectionTxt{
+        width: 105%;
+    }
+    .secondSectionTxt h1{
+        font-size: 28px;
+    }
+
+    .secondSectionTxt h5{
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+
+    .countryLogo img{
+        margin-left: 0;
+    }
+
+    .leftImageTag{
+        width: 100%;
+    }
+
+    .leftImageTag img{
+        width: 105%;
+    } 
+
+    .thirdSection h1{
+        width: 100%;
+        font-size: 30px;
+        text-align: start;
+    }
+
+    #layout1 p{
+        padding: 15px  25px;
+        font-size: 16px;
+    }
+
+    .whyUsSection1{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .whyUsSection2{
+        width: 105%;
+        gap: 10px;
+    }
+
+    #layout2 p {
+        padding:15px;
+        font-size: 17px;
+    }
+
+    #footerSection {
+        padding: 5rem 1rem 5px;
+        gap: 20px;
+    }
+
+    .topCopyRight{
+        display: none;
+    }
+
+    #footerSection{
+        flex-direction: column;
+    }
+
+    .bottomCopyright, .horizontalRule{
+        display: block;
+        text-align: center;
+    }
+
+    .horizontalRule{
+        height: 0.5px;
+        width: 100%;
+        background-color: rgb(190, 190, 190);
+        margin-bottom: 5px;
+    }
+
+    .footermedia a{
+        margin-right: 10px;
     }
 }
