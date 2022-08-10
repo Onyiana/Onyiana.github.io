@@ -869,5 +869,7 @@ a {
 
     .fourthSection1 p{
         margin-top: 0px;
+        padding: 0 20px;
+        font-size: 14px;
     }
 }
