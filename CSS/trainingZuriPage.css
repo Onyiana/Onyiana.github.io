@@ -597,12 +597,14 @@ a {
     }
 
     .whyUsSection2{
-        width: 80%;
-        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 95%;
     }
 
     #layout2 p {
-        padding:15px 20px;
+        padding:15px 10px;
         font-size: 17px;
     }
     
@@ -689,24 +691,24 @@ a {
         text-align: start;
     }
 
+    .whyUsSection1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+    }
+
     #layout1 p{
-        padding: 15px  25px;
+        padding: 15px  20px;
         font-size: 16px;
     }
 
-    .whyUsSection1{
+    .whyUsSection2{
         width: 100%;
         gap: 10px;
     }
 
-    .whyUsSection2{
-        width: 105%;
-        gap: 10px;
-    }
-
     #layout2 p {
-        padding:15px;
-        font-size: 17px;
+        padding:15px  3px;
+        font-size: 13px;
     }
 
     
@@ -817,7 +819,37 @@ a {
     .countryLogo img{
        padding: 5px;
     }
-    
 
+    .thirdSection{
+        padding-left: 1.5rem;
+    }
 
+    .thirdSection h1{
+        width: 120%;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .whyUsSection1{
+        width: 100%;
+        gap: 15px;
+    }
+
+    #layout1 p{
+        padding: 20px  30px;
+        font-size: 16px;
+    }
+
+    .whyUsSection2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        width: 100%;
+    }
+
+    #layout2 p {
+        padding:25px;
+        font-size: 16px;
+    }
+   
 }
