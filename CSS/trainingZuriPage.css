@@ -10,6 +10,10 @@ html, body{
     scroll-behavior: smooth;
 }
 
+dl, ol, ul {
+    margin-bottom: 0 !important;
+}
+
 a {
   text-decoration: none;
 }
@@ -18,8 +22,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding: 1rem 3rem;
 }
 
 .navlinks{
@@ -30,9 +33,9 @@ a {
     gap: 70px;
     cursor: pointer;
 }
-.navlinks .link{
+/* .navlinks .link{
     padding: 20px 6px;
-}
+} */
 
 .navlinks .link:hover{
     background-color: rgb(229, 245, 240);
@@ -413,8 +416,7 @@ a {
 
 @media screen and (max-width:992px) {
     .navbar{
-        padding-left: 4rem;
-        padding-right: 10rem;
+        padding: 1rem 3rem;
     }
 
     .navlinks{
@@ -530,12 +532,6 @@ a {
 }
 
 @media screen and (max-width:768px) {
-    .navbar{
-        padding-left: 3rem;
-        padding-right: 3rem;
-        padding-top: 10px;
-       
-    }
 
     .navlinks a{
         display: none;
@@ -620,13 +616,27 @@ a {
 }
 
 @media screen and (max-width: 576px){
+    
     .navbar{
-        padding-left: 2rem;
-        padding-right: 2rem; 
+        display: flex;
+        padding: 1.5rem;
+    }
+
+    .navlinks button{
+        padding: 8px  25px;
+        font-size: 15px;
+    }
+
+    .navlinks{
+        gap: 20px;
     }
 
     .firstSection{
         width: 100%;
+    }
+
+    .firstSection h1{
+        font-size: 35px ;
     }
 
     .firstSection p{
@@ -650,6 +660,7 @@ a {
     .secondSectionTxt{
         width: 105%;
     }
+
     .secondSectionTxt h1{
         font-size: 28px;
     }
@@ -701,7 +712,7 @@ a {
     
     #finalSection{
         padding: 5rem  1rem;
-     }
+    }
 
     #footerSection {
         padding: 5rem 1rem 5px;
@@ -731,4 +742,82 @@ a {
     .footermedia a{
         margin-right: 10px;
     }
+}
+
+@media screen and (max-width:375px) {
+    .navlinks{
+        gap: 20px;
+    }
+
+    .navlinks button{
+        padding: 5px  10px;
+        font-size: 15px;
+    }
+
+    .navbar{
+        display: flex;
+        padding: 1rem;
+    }
+
+    .firstSection {
+        padding: 8rem 2rem;
+    }
+
+    .thick2rightIcon {
+        left: 65%;
+        top: 20%;
+        width: 25%;
+    }
+
+    .toggleButton1{
+        padding: 10px  20px;
+        margin-right: 0px;
+    }
+
+    .toggleButton2{
+        padding: 10px  10px;
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .modal-content{
+        padding: 1rem  1rem;
+    }
+
+    .section1Image{
+        width: 100%;
+    }
+
+    .section1Image img{
+        width: 110%;
+    }
+
+    #middleSection{
+        text-align: none;
+        padding: 6rem 3rem;
+    }
+
+    .secondSectionTxt{
+        width: 100%;
+    }
+
+    .secondSectionTxt h1{
+        font-size: 27px;
+    }
+
+    .leftImageTag{
+        width: 130%;
+        padding-right: 20px;
+    }
+
+    .countryLogo{
+        gap: 5px;
+    }
+    
+    .countryLogo img{
+       padding: 5px;
+    }
+    
+
+
 }
