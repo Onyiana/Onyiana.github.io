@@ -851,5 +851,23 @@ a {
         padding:25px;
         font-size: 16px;
     }
-   
+
+    .fourthSectionTxt h1 {
+        font-size: 30px;
+    }
+
+    .pl-2 {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 2rem;
+        width: 100%;
+    }
+
+    .pl-2 img{
+        margin-bottom: 10px;
+    }
+
+    .fourthSection1 p{
+        margin-top: 0px;
+    }
 }
