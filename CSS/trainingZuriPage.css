@@ -852,6 +852,11 @@ a {
         font-size: 16px;
     }
 
+    
+    #finalSection{
+        padding: 5rem  0;
+    }
+
     .fourthSectionTxt h1 {
         font-size: 30px;
     }
